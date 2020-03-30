@@ -7,9 +7,7 @@ def find_even_values(array_of_arrays)
         puts array_of_arrays[row_count][column_count]
       end 
       column_count += 1
+    end
+    row_count +=1 
   end
-  
-end
-  
-
 end
