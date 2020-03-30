@@ -1,3 +1,6 @@
+
+
+
 def find_even_values(array_of_arrays)
   row_count = 0 
   while row_count < array_of_arrays.length do 
@@ -11,3 +14,5 @@ def find_even_values(array_of_arrays)
     row_count +=1 
   end
 end
+
+find_even_values(array_of_arrays)
